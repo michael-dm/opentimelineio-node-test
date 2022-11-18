@@ -1,0 +1,21 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "test": "node --napi-modules ./tests/test_binding.js",
+    "install": "cmake-js compile"
+  },
+  "name": "opentimelineio-node-test",
+  "version": "1.0.0",
+  "author": "Micode",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "cmake-js": "^7.0.0",
+    "fs-extra": "^10.1.0",
+    "typescript": "^4.9.3"
+  }
+}
