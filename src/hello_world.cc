@@ -46,7 +46,7 @@ Timeline::Timeline(const Napi::CallbackInfo &info) : ObjectWrap(info)
         return;
     }
 
-    this->_greeterName = info[0].As<Napi::String>().Utf8Value();
+    // do something with timeline
 }
 
 Napi::Value Timeline::Greet(const Napi::CallbackInfo &info)
